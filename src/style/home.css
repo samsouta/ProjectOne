@@ -1,0 +1,20 @@
+:root {
+
+    --swiper-pagination-bullet-inactive-opacity: 0.7;
+    --swiper-pagination-bullet-opacity: 1;
+
+}
+.swiper-pagination-bullet-active {
+    background-color: #7209B7;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -20px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+  

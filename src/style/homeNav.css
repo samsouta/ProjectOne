@@ -1,0 +1,6 @@
+.c-HomeContainer{
+    position: fixed;
+    top: 0;
+    z-index: 100 !important;
+    width: 100% !important;
+}

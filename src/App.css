@@ -1,0 +1,12 @@
+@import url("./style/home.css");
+@import './style/googleFont.css';
+@import './style/color.css';
+@import './style/footer.css';
+@import './style/homeNav.css';
+@import './style/userProfile.css';
+@import './style/Login.css';
+@import './style/resgiter.css';
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Open+Sans:wght@300;400;500&display=swap');
+
+/* font-family: 'Gabarito', sans-serif;
+font-family: 'Open Sans', sans-serif; */
