@@ -1,0 +1,13 @@
+.btn-cus-color{
+    background-color: var(--colorRoseB) !important;
+    color: white !important;
+}
+.text-cus-xs{
+    size: 0.5rem !important;
+}
+
+.cus-card-hov:hover{
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}

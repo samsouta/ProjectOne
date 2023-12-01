@@ -1,6 +1,17 @@
-.text-a{
-    font-family: 'Gabarito', sans-serif;
+.text-m{
+    font-family: 'Montserrat', sans-serif;
 }
-.text-b{
-    font-family: 'Open Sans', sans-serif; 
+.text-n{
+    font-family: 'Noto Serif Balinese', serif; 
 }
+.text-q{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+
+font-family: 'Noto Serif Balinese', serif;
+
+font-family: 'Quicksand', sans-serif; */
+

@@ -1,8 +1,10 @@
 :root{
-    --colorA : #7209B7;
-    --colorB : red;
-    --colorC :#F1FAEE;
-    --colorE:#E5E5E5;
-    --colorF:#7B2CBF;
-    --colorG:#14213D;
+    --colorVioletA : #8338EC; 
+    --colorVioletB : #A26AF0 ;
+    --colorRoseA : #FF006E ;
+    --colorRoseB: #FF4797 ;
+    --colorWhiteSmoke: #F5F5F5;
 }
+
+/* VA - pc navbar bg */
+

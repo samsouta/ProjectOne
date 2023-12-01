@@ -10,15 +10,18 @@ import { BrowserRouter } from 'react-router-dom'
 import { MantineProvider } from '@mantine/core'
 import { Provider } from 'react-redux';
 import { store } from './feature/store.js';
+import { StateContextProvider } from './context/stateContext.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Provider store={store} >
     <React.StrictMode>
+      <StateContextProvider>
       <MantineProvider>
         <App />
       </MantineProvider>
+      </StateContextProvider>
     </React.StrictMode>
     </Provider>
   </BrowserRouter>,

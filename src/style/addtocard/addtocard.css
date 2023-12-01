@@ -1,0 +1,7 @@
+.cus-bg:hover{
+    background-color: var(--colorRoseB) !important;
+}
+.cus-btn-size{
+    padding-left:2px;
+    padding-right: 2px;
+}

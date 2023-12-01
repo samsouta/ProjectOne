@@ -1,0 +1,6 @@
+.btn-VA{
+    background-color: var(--colorVioletB) !important;
+}
+.btn-VA:hover{
+    background-color: var(--colorRoseA) !important;
+}

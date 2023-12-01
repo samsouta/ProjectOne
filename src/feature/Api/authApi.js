@@ -20,8 +20,16 @@ export const authApi = createApi({
                 headers: {authorization : `Bearer ${token}`}
             }),
             invalidatesTags: ["auth"]
+        }),
+        register: builder.mutation({
+            query: (user)=>({
+                url: `/register`,
+                method: "POST",
+                body: user,
+            }),
+            invalidatesTags: ["auth"]
         })
     }),
 });
 
-export const {useLoginMutation,useLogoutMutation} = authApi
+export const {useLoginMutation,useLogoutMutation,useRegisterMutation} = authApi

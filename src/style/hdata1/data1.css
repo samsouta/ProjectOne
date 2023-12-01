@@ -1,0 +1,6 @@
+.bg-hover-btn:hover{
+    background-color: var(--colorRoseA) !important;
+}
+.bg-hover-btn{
+    background-color: var(--colorVioletB) !important;
+}
